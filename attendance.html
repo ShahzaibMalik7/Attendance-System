@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attendance System</title>
+    <link rel="stylesheet" href="attendance.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="main">
+            <li class="employe">Add Employee</li>
+            <li class="report">View Report</li>
+            <li class="exit">Exit</li>
+        </div>
+
+        <div class="attendance-system">
+            <h1 class="headi">Attendance System</h1>
+            <table style="width: 100%;">
+                <tr>
+                    <th>Employee</th>
+                    <th>Check-In</th>
+                    <th>Check-Out</th>
+                    <th>Leave</th>
+                </tr>
+                <tr>
+                    <td>Asad</td>
+                    <td><button onclick="increasePresent(this)">Check-In</button></td>
+                    <td><button class="Check-Out" onclick="increaseAbsent(this)">Check-Out</button></td>
+                    <td class="wid"><button class="Leave" onclick="increaseLeave(this)">Leave</button></td>
+                </tr>
+                <tr>
+                    <td>Ahmer</td>
+                    <td><button class="Check-In" onclick="increasePresent(this)">Check-In</button></td>
+                    <td><button class="Check-Out" onclick="increaseAbsent(this)">Check-Out</button></td>
+                    <td class="wid"><button class="Leave" onclick="increaseLeave(this)">Leave</button></td>
+                </tr>
+                <tr>
+                    <td>Shahzaib</td>
+                    <td><button class="Check-In" onclick="increasePresent(this)">Check-In</button></td>
+                    <td><button class="Check-Out" onclick="increaseAbsent(this)">Check-Out</button></td>
+                    <td class="wid"><button class="Leave" onclick="increaseLeave(this)">Leave</button></td>
+                </tr>
+                <tr>
+                    <td>Sheraz</td>
+                    <td><button class="Check-In" onclick="increasePresent(this)">Check-In</button></td>
+                    <td><button class="Check-Out" onclick="increaseAbsent(this)">Check-Out</button></td>
+                    <td class="wid"><button class="Leave" onclick="increaseLeave(this)">Leave</button></td>
+                </tr>
+                <tr>
+                    <td>Ayyan</td>
+                    <td><button class="Check-In" onclick="increasePresent(this)">Check-In</button></td>
+                    <td><button class="Check-Out" onclick="increaseAbsent(this)">Check-Out</button></td>
+                    <td class="wid"><button class="Leave" onclick="increaseLeave(this)">Leave</button></td>
+                </tr>
+                <tr>
+                    <td>Saad</td>
+                    <td><button class="Check-In" onclick="increasePresent(this)">Check-In</button></td>
+                    <td><button class="Check-Out" onclick="increaseAbsent(this)">Check-Out</button></td>
+                    <td class="wid"><button class="Leave" onclick="increaseLeave(this)">Leave</button></td>
+                </tr>
+                <tr>
+                    <td>Hammad</td>
+                    <td><button class="Check-In" onclick="increasePresent(this)">Check-In</button></td>
+                    <td><button class="Check-Out" onclick="increaseAbsent(this)">Check-Out</button></td>
+                    <td class="wid"><button class="Leave" onclick="increaseLeave(this)">Leave</button></td>
+                </tr>
+                <tr>
+                    <td>Bilal</td>
+                    <td><button class="Check-In" onclick="increasePresent(this)">Check-In</button></td>
+                    <td><button class="Check-Out" onclick="increaseAbsent(this)">Check-Out</button></td>
+                    <td class="wid"><button class="Leave" onclick="increaseLeave(this)">Leave</button></td>
+                </tr>
+                <tr>
+                    <td>Usman</td>
+                    <td><button class="Check-In" onclick="increasePresent(this)">Check-In</button></td>
+                    <td><button class="Check-Out" onclick="increaseAbsent(this)">Check-Out</button></td>
+                    <td class="wid"><button class="Leave" onclick="increaseLeave(this)">Leave</button></td>
+                </tr>
+                <tr>
+                    <td>Shah Nawaz</td>
+                    <td><button class="Check-In" onclick="increasePresent(this)">Check-In</button></td>
+                    <td><button class="Check-Out" onclick="increaseAbsent(this)">Check-Out</button></td>
+                    <td class="wid"><button class="Leave" onclick="increaseLeave(this)">Leave</button></td>
+                </tr>
+            </table>
+            <div class="report">
+            <p class="today">Today</p>
+            <p>Present: <span id="present-count">0</span></p>
+            <p>Exit: <span id="absent-count">0</span></p>
+            <p>Leave: <span id="leave-count">0</span></p>
+            </div>
+        </div>
+
+
+    </div>
+<script src="attendance.js"></script>
+</body>
+
+</html>

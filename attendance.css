@@ -1,0 +1,104 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    background: #d0ecef;
+    width: 85%;
+    max-width: 800px;
+    margin: 100px auto 0;
+    margin-bottom: 70px;
+    border-radius: 20px;
+    padding: 30px 40px;
+}
+
+.main {
+    background-color: #36687d;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    border-radius: 10px;
+    padding: 10px 30px;
+}
+
+.main li {
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.attendance-system {
+    margin: 30px auto 15px auto;
+}
+
+.headi {
+    font-size: 38px;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+    padding: 18px 30px;
+    background-color: #36687d;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+table {
+    text-align: justify;  
+    background-color: #fff;
+    border-collapse: collapse;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 1px solid #000;
+    overflow: hidden;
+}
+
+table th {
+    border-bottom: 1px solid #000;
+    font-size: 18px;
+    padding: 10px 20px;
+}
+
+table td {
+    font-size: 18px;
+    border-bottom:1px solid #000 ;
+    padding: 10px 20px;
+}
+
+table td button {
+    padding: 7px 14px;
+    background: #36687d;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 18px;
+    margin-left: -10px;
+    cursor: pointer;
+}
+
+.wid {
+    width: 100px;
+}
+
+
+
+.report {
+    display: flex;
+    align-items: center;
+    gap: 130px;
+    padding: 20px 20px 20px 52px;
+}
+
+.report .today {
+    margin-left: -20px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.report p {
+    font-size: 18px;
+}
